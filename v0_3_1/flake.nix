@@ -1,5 +1,5 @@
 {
-  description = ''ZeroMQ 4 wrapper'';
+  description = ''ZeroMQ wrapper'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-zmq-v0_3_1.flake = false;
   inputs.src-zmq-v0_3_1.owner = "nim-lang";
-  inputs.src-zmq-v0_3_1.ref   = "refs/tags/v0.3.1";
+  inputs.src-zmq-v0_3_1.ref   = "v0_3_1";
   inputs.src-zmq-v0_3_1.repo  = "nim-zmq";
   inputs.src-zmq-v0_3_1.type  = "github";
   
