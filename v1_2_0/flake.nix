@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-zmq-v1_2_0.flake = false;
+  inputs.src-zmq-v1_2_0.ref   = "refs/tags/v1.2.0";
   inputs.src-zmq-v1_2_0.owner = "nim-lang";
-  inputs.src-zmq-v1_2_0.ref   = "v1_2_0";
   inputs.src-zmq-v1_2_0.repo  = "nim-zmq";
   inputs.src-zmq-v1_2_0.type  = "github";
   
