@@ -198,6 +198,34 @@
       "srcDir": "",
       "backend": "c",
       "ref": "refs/tags/v1.3.0"
+    },
+    {
+      "name": "zmq",
+      "version": "1.3.1",
+      "author": "Andreas Rumpf",
+      "desc": "ZeroMQ wrapper",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.18.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.18.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/v1.3.1"
     }
   ],
   "description": "ZeroMQ 4 wrapper",
@@ -212,12 +240,13 @@
     "refs/tags/v1.2.0",
     "refs/tags/v1.2.1",
     "refs/tags/v1.3.0",
+    "refs/tags/v1.3.1",
     ""
   ],
   "heads": [
     {
       "name": "zmq",
-      "version": "1.2.1",
+      "version": "1.3.1",
       "author": "Andreas Rumpf",
       "desc": "ZeroMQ wrapper",
       "license": "MIT",
